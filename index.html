@@ -4,81 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Order your cosmic pizza!</title>
-    <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png" sizes="192x192">
     <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Order your cosmic pizza!</title>
 </head>
 <body>
     <div class="container">
+        <div class="fest">
         <div class="row">
-                <div class="col-md-4">
-                    
-    <div class="pizza-caption">A classic delight loaded with extra 100% real mozzarella cheese.</div>
-
-        <div class="grid-child toppings-container">
+    <div class="jumbotron">
+        <div class="col-md-12">
+        <div class="pizza-caption">A classic delight loaded with extra 100% real mozzarella cheese.</div>
         <div class="toppings-head">ADD TOPPINGS</div>
- <div class="toppings-genres">
- <div class="toppings-genre active" onclick="openGenre(event, 'veg')">VEGETABLE</div>
- <div class="toppings-genre" onclick="openGenre(event, 'non')">NON VEGETABLE</div>
- </div>
- <div class="container-fluid">
-        <div class="row">
-                <div class="col-md-4">
-                    <img src="https://bit.ly/2WQEgtv" height="250px" width="250px">
-                    <span>CAPSICUM</span>
-                </div>
-                <div class="col-md-4">
-
-                    <img src="https://bit.ly/32kDSVe" height="250"  width="250px">
-                        <span>PERI PERI CHICKEN</span>
-                </div>
-                <div class="col-md-4">
-                    <img src="https://bit.ly/2NNAjBJ" height="250"  width="250px">
-                    <span>BARBEQUE</span>
-                </div>
-            </div>
-            <div class="row">
-            <div class="col-md-4">
-                    <img src="https://bit.ly/2NN2il1" height="250"  width="250px">
-                <span>SAUSAGE</span>
-            </div>
-            <div class="col-md-">
-                <img src="https://bit.ly/2CnrkSA" height="250"  width="250px">
-                <span>CHICKEN TIKKA</span>
-            </div>
-            <div class="col-md-4">
-            <img src="https://bit.ly/2WQDs7X" height="250"  width="250px">
-                <span>GRILLED CHICKEN RASHER</span>
+            <div class="toppings-genres">
+            <div class="toppings-genre active" onclick="openGenre(event, 'veg')">VEGETABLE</div>
+            <div class="toppings-genre" onclick="openGenre(event, 'non')">NON VEGETABLE</div>
+        </div>
             </div>
             </div>
         </div>
     </div>
- <div class="grid-child crust-container">
-        <div class="crust-head">CHOOSE YOUR CRUST</div>
-        <div class="crust-body">
-        <div class="crust selected-crust" title="₹34">CLASSIC HAND TOSSED</div>
-        <div class="crust" title="$40">CHEESE BURST</div>
-        <div class="crust" title="$50">WHEAT THIN CRUST</div>
-        <div class="crust" title="$40">FRESH PAN</div>
-        <div class="crust" title="$40">NEW HAND TOSSED</div>
+            <div class="container-fluid">
+                <div class="second">
+        <div class="jumbotron">
+                 <div class="row">
+                <div class="col-md-4">
+                    <img src="https://bit.ly/2WQEgtv" height="250px" width="250px" id="img1">
+                    <span>CAPSICUM $15</span>
+                </div>
+                <div class="col-md-4">
+
+                    <img src="https://bit.ly/32kDSVe" height="250px"  width="250px" id="img2">
+                        <span>PERI PERI CHICKEN $26</span>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://bit.ly/2NNAjBJ" height="250px"  width="250px"  id="img3">
+                    <span>BARBEQUE $21</span>
+                </div>
+            </div>
+            <div class="row">
+            <div class="col-md-4">
+                    <img src="https://bit.ly/2NN2il1" height="250px"  width="250px"  id="img4">
+                <span>SAUSAGE  $18</span>
+            </div>
+            <div class="col-md-4">
+                <img src="https://bit.ly/2CnrkSA" height="250px"  width="250px"  id="img5">
+                <span>CHICKEN TIKKA  $25</span>
+            </div>
+            <div class="col-md-4">
+            <img src="https://bit.ly/2WQDs7X" height="250px"  width="250px"  id="img6">
+                <span>GRILLED CHICKEN RASHER  $20</span>
+            </div>
+        </div>
+        
         </div>
         </div>
-        <div class="grid-child bill-container">
-        <div class="bill-extras">
-        <span>Quantity</span>
-        <select name="quantity" id="quantity" onclick="updateBill()">
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-        </select>
-        <label for="extra-cheese" class="cheese" title="$30">Extra Cheese
+    </div>
+        </div>
+        <div class="grid-child crust-container">
+            <div class="third">
+        <div class="jumbotron">
+            <div class="crust-head">CHOOSE YOUR CRUST</div>
+            <div class="crust-body">
+            <div class="crust selected-crust" title="$34">CLASSIC HAND TOSSED</div>
+            <div class="crust" title="$40">CHEESE BURST</div>
+            <div class="crust" title="$50">WHEAT THIN CRUST</div>
+            <div class="crust" title="$40">FRESH PAN</div>
+            <div class="crust" title="$40">NEW HAND TOSSED</div>
+            </div>
+            <div class="grid-child bill-container">
+            <div class="bill-extras">
+            <span>Quantity</span>
+            <select name="quantity" id="quantity" onclick="updateBill()">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            </select>
+            <label for="extra-cheese" class="cheese" title="$30">Extra Cheese
                 <input type="checkbox" name="extra-cheese" id="extra-cheese" onclick="updateBill()">
                 <span class="checkmark" title="$30"></span>
-                </label>
-                </div>
+            </label>
                 <div class="bill">
                 <ul class="bill-list">
                 <li>
@@ -105,20 +113,13 @@
                 <div id="buy-now" onclick="alert(' Hello,your pizza(s) is arriving soon kindly wait as we work on your order please.Thank you')">
                 <a><span>Buy Now </span></a>
                 </div>
-                </div>
-                </div>
-               
-                </div>
-                </div>
+            </div>
             
-    
-    
-    
-    
-    
-    
-    
-    
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
     <script src="script.js"></script>
     <script src="jQuery.js"></script>
         
