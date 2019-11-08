@@ -1,6 +1,12 @@
-.one{
-display: flex;
-justify-content: center;
--moz-text-size-adjust: 2em;
-    
+body {
+  width: auto;
+  height: 100vh;
+  background-image: url("https://bit.ly/2Q02aBi");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Permanent Marker", sans-serif;
+  background-color: blanchedalmond;
 }

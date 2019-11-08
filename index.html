@@ -7,13 +7,121 @@
     <title>Order your cosmic pizza!</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png" sizes="192x192">
-    <link rel="stylesheet" href="assets/responsive.css">
+    <link rel="stylesheet" href="bootstrap.css">
 </head>
 <body>
-        <div class="one">
-            <h1> Welcome to Cosmic pizza</h1>
+    <div class="container">
+        <div class="row">
+                <div class="col-md-4">
+                    
+    <div class="pizza-caption">A classic delight loaded with extra 100% real mozzarella cheese.</div>
+
+        <div class="grid-child toppings-container">
+        <div class="toppings-head">ADD TOPPINGS</div>
+ <div class="toppings-genres">
+ <div class="toppings-genre active" onclick="openGenre(event, 'veg')">VEGETABLE</div>
+ <div class="toppings-genre" onclick="openGenre(event, 'non')">NON VEGETABLE</div>
+ </div>
+ <div class="container-fluid">
+        <div class="row">
+                <div class="col-md-4">
+                    <img src="https://bit.ly/2WQEgtv" height="250px" width="250px">
+                    <span>CAPSICUM</span>
+                </div>
+                <div class="col-md-4">
+
+                    <img src="https://bit.ly/32kDSVe" height="250"  width="250px">
+                        <span>PERI PERI CHICKEN</span>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://bit.ly/2NNAjBJ" height="250"  width="250px">
+                    <span>BARBEQUE</span>
+                </div>
+            </div>
+            <div class="row">
+            <div class="col-md-4">
+                    <img src="https://bit.ly/2NN2il1" height="250"  width="250px">
+                <span>SAUSAGE</span>
+            </div>
+            <div class="col-md-">
+                <img src="https://bit.ly/2CnrkSA" height="250"  width="250px">
+                <span>CHICKEN TIKKA</span>
+            </div>
+            <div class="col-md-4">
+            <img src="https://bit.ly/2WQDs7X" height="250"  width="250px">
+                <span>GRILLED CHICKEN RASHER</span>
+            </div>
+            </div>
         </div>
-        <div class="grid-container">
+    </div>
+ <div class="grid-child crust-container">
+        <div class="crust-head">CHOOSE YOUR CRUST</div>
+        <div class="crust-body">
+        <div class="crust selected-crust" title="₹34">CLASSIC HAND TOSSED</div>
+        <div class="crust" title="$40">CHEESE BURST</div>
+        <div class="crust" title="$50">WHEAT THIN CRUST</div>
+        <div class="crust" title="$40">FRESH PAN</div>
+        <div class="crust" title="$40">NEW HAND TOSSED</div>
+        </div>
+        </div>
+        <div class="grid-child bill-container">
+        <div class="bill-extras">
+        <span>Quantity</span>
+        <select name="quantity" id="quantity" onclick="updateBill()">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        </select>
+        <label for="extra-cheese" class="cheese" title="$30">Extra Cheese
+                <input type="checkbox" name="extra-cheese" id="extra-cheese" onclick="updateBill()">
+                <span class="checkmark" title="$30"></span>
+                </label>
+                </div>
+                <div class="bill">
+                <ul class="bill-list">
+                <li>
+                <span class="bill-label">Total:</span>
+                <span class="bill-value" id="total-cost">$70</span>
+                </li>
+                <li>
+                <span class="bill-label">Extra Toppings:</span>
+                <span class="bill-value" id="toppings-cost">$10</span>
+                </li>
+                <li>
+                <span class="bill-label">Extra Cheese:</span>
+                <span class="bill-value" id="cheese-cost">$10</span>
+                </li>
+                <li>
+                <span class="bill-label">GST:</span>
+                <span class="bill-value" id="gst-cost">$10</span>
+                </li>
+                <li id="grand-total">
+                <span class="bill-label"> Total:</span>
+                <span class="bill-value" id="grand-cost">$70</span>
+                </li>
+                </ul>
+                <div id="buy-now" onclick="alert(' Hello,your pizza(s) is arriving soon kindly wait as we work on your order please.Thank you')">
+                <a><span>Buy Now </span></a>
+                </div>
+                </div>
+                </div>
+               
+                </div>
+                </div>
+            
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="script.js"></script>
+    <script src="jQuery.js"></script>
+        
               
     
 </body>
