@@ -35,14 +35,13 @@ body {
 }
 input{
     width:80%;
-    color:solid green;
+    color:solid ;
     border-radius: 0.5em;
     color:purple;
 }
 #buy{
-    display:flex;
     justify-content: center;
-    color:solid ;
     border-radius: 0.5em;
-    background-color:purple;
+    background-color: purple;
+    display: flex;
 }
