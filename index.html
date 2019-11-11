@@ -17,51 +17,65 @@
         <div class="col-md-12">
         <div class="pizza-caption">A classic delight loaded with extra 100% real mozzarella cheese.</div>
         <div class="toppings-head">ADD TOPPINGS</div>
-            <div class="toppings-genres">
+        <div class="toppings-genres">
             <div class="toppings-genre active" onclick="openGenre(event, 'veg')">VEGETABLE</div>
             <div class="toppings-genre" onclick="openGenre(event, 'non')">NON VEGETABLE</div>
         </div>
             </div>
-            </div>
+    </div>
         </div>
     </div>
             <div class="container-fluid">
                 <div class="second">
         <div class="jumbotron">
-                 <div class="row">
+                <div class="row">
                 <div class="col-md-4">
                         CAPSICUM
-                        <input type="click" id="img1"><br/>
-                        <input type="button" onclick="Buy-now" value="$15">
-                        <input type="buy-now" id="click">
+                    <input type="click" id="img1"><br/>
+                    <input type="button" onclick="Buy-now" value="$15">
+                    <input type="buy-now" id="click">
                     <img src="https://bit.ly/2WQEgtv" height="250px" width="250px" id="img1">
                 </div>
                 <div class="col-md-4">
 
-                PERICHICKEN$26
+                PERI CHICKEN
+                <input type="click" id="img2"><br/>
+                        <input type="button" onclick="Buy-now" value="$26">
+                        <input type="buy-now" id="click">
                     <img src="https://bit.ly/32kDSVe" height="250px"  width="250px" id="img2">
                     
                 </div>
                 <div class="col-md-4">
-                        BARBEQUE $21
+                        BARBEQUE 
+                        <input type="click" id="img3"><br/>
+                        <input type="button" onclick="Buy-now" value="$21">
+                        <input type="buy-now" id="click">
                     <img src="https://bit.ly/2NNAjBJ" height="250px"  width="250px"  id="img3">
                 </div>
             </div>
             <div class="row">
             <div class="col-md-4">
-                    SAUSAGE $18
+                    SAUSAGE 
+                    <input type="click" id="img4"><br/>
+                        <input type="button" onclick="Buy-now" value="$18">
+                        <input type="buy-now" id="click">
                     <img src="https://bit.ly/2NN2il1" height="250px"  width="250px"  id="img4">
             </div>
             <div class="col-md-4">
-                    CHICKENTIKKA$25
+                    CHICKEN TIKKA
+                    <input type="click" id="img5"><br/>
+                        <input type="button" onclick="Buy-now" value="$25">
+                        <input type="buy-now" id="click">
                 <img src="https://bit.ly/2CnrkSA" height="250px"  width="250px"  id="img5">
             </div>
             <div class="col-md-4">
-                    CHICKENRASHER$20
+                    CHICKEN RASHER
+                    <input type="click" id="img6"><br/>
+                        <input type="button" onclick="Buy-now" value="$20">
+                        <input type="buy-now" id="click">
             <img src="https://bit.ly/2WQDs7X" height="250px"  width="250px"  id="img6">
             </div>
         </div>
-        
         </div>
         </div>
     </div>
@@ -70,13 +84,33 @@
         <div class="grid-child crust-container">
             <div class="third">
         <div class="jumbotron">
-            <div class="crust-head">CHOOSE YOUR CRUST</div>
+            <h1 div class="crust-head">CHOOSE YOUR CRUST</h1>
             <div class="crust-body">
-            <div class="crust selected-crust" title="$34">CLASSIC HAND TOSSED</div>
-            <div class="crust" title="$40">CHEESE BURST</div>
-            <div class="crust" title="$50">WHEAT THIN CRUST</div>
-            <div class="crust" title="$40">FRESH PAN</div>
-            <div class="crust" title="$40">NEW HAND TOSSED</div>
+            <div class="crust selected-crust" title="$34">CLASSIC HAND TOSSED
+                <input type="click" id="classic hand tossed"><br/>
+                <input type="button" onclick="Buy-now" value="$34">
+                <input type="buy-now" id="click">
+            </div>
+            <div class="crust" title="$40">CHEESE BURST
+                    <input type="click" id="cheese burst"><br/>
+                    <input type="button" onclick="Buy-now" value="$40">
+                    <input type="buy-now" id="click">
+            </div>
+            <div class="crust" title="$50">WHEAT THIN CRUST
+                    <input type="click" id="wheat thin crust"><br/>
+                    <input type="button" onclick="Buy-now" value="$50">
+                    <input type="buy-now" id="click">
+            </div>
+            <div class="crust" title="$40">FRESH PAN
+                    <input type="click" id="fresh pan"><br/>
+                    <input type="button" onclick="Buy-now" value="$40">
+                    <input type="buy-now" id="click">
+            </div>
+            <div class="crust" title="$40">NEW HAND TOSSED
+                    <input type="click" id="new hand tossed"><br/>
+                    <input type="button" onclick="Buy-now" value="$40">
+                    <input type="buy-now" id="click">
+            </div>
             </div>
             <div class="grid-child bill-container">
             <div class="bill-extras">
@@ -95,29 +129,46 @@
                 <div class="bill">
                 <ul class="bill-list">
                 <li>
-                <span class="bill-label">Total:</span>
-                <span class="bill-value" id="total-cost">$70</span>
+                <span class="bill-label">Total:</span><br/>
+                <input type="button" onclick="calc()", value="Total"><br/>
+                <input type="click" id="answer" size="6px">
+                <input type="buy-now" id="click">
+                <span class="bill-value" id="total-cost"></span>
                 </li>
                 <li>
                 <span class="bill-label">Extra Toppings:</span>
-                <span class="bill-value" id="toppings-cost">$10</span>
+                <input type="click" id="Extra Toppings"><br/>
+                <input type="button" onclick="Buy-now" value="$10">
+                <input type="buy-now" id="click">
+                <span class="bill-value" id="toppings-cost"></span>
                 </li>
                 <li>
                 <span class="bill-label">Extra Cheese:</span>
-                <span class="bill-value" id="cheese-cost">$10</span>
+                <input type="click" id="Extra cheese"><br/>
+                <input type="button" onclick="Buy-now" value="$10">
+                <input type="buy-now" id="click">
+                <span class="bill-value" id="cheese-cost"></span>
                 </li>
                 <li>
-                <span class="bill-label">GST:</span>
-                <span class="bill-value" id="gst-cost">$10</span>
+                <span class="bill-label">GST:</span><br/>
+                <input type="click" id="gst"><br/>
+                <input type="button" onclick="Buy-now" value="$10">
+                <input type="buy-now" id="click">
+                <span class="bill-value" id="gst-cost"></span>
                 </li>
                 <li id="grand-total">
-                <span class="bill-label"> Total:</span>
-                <span class="bill-value" id="grand-cost">$70</span>
+                <span class="bill-label"> Total:</span><br/>
+                <input type="button" onclick="calc()",  value="Total"><br/>
+                <input type="click" id="answer" size="6px">
+                <input type="buy-now" id="click">
+                <span class="bill-value" id="grand-cost"></span>
                 </li>
                 </ul>
             </form>
                 <div id="buy-now" onclick="alert(' Hello,your pizza(s) is arriving soon kindly wait as we work on your order please.Thank you')">
+            <div id="buy">
                 <a><span>Buy Now </span></a>
+            </div>
                 </div>
             </div>
             
