@@ -1,30 +1,23 @@
-let pizza=function(size,toppings,crust){
-  this.size=size;
-  this.toppings=toppings;
-  this.crust=crust;
-}
-
-
-
-
+let pizza = function(size, toppings, crust) {
+  this.size = size;
+  this.toppings = toppings;
+  this.crust = crust;
+};
 
 $(document).ready(function() {
-  $("button#sub").click(function(event){
+  $("button#sub").click(function(event) {
     var psize = parseInt($("#size").val());
-  var ptoppings = parseInt($("#toppings").val());
-  var pcrust = parseInt($("#crust").val());
-  // var no = parseInt($("#numbs").val());
+    var ptoppings = parseInt($("#toppings").val());
+    var pcrust = parseInt($("#crust").val());
+    // var no = parseInt($("#numbs").val());
 
+    pizza.prototype.total = function() {
+      return this.size + this.toppings + this.crust;
+    };
+    var nPizza = new pizza(psize, ptoppings, pcrust);
+    var rtotal = nPizza.total();
+  });
 
-  pizza.prototype.total=function() {
-    return this.size  + this.toppings  + this.crust;
-  }
-  var nPizza= new pizza(psize,ptoppings,pcrust);
-  var rtotal = (nPizza.total());
-  alert(rtotal);
-  })
-  
- 
   $("button#submit").click(function() {
     alert(no);
     $("tbody")
@@ -47,7 +40,6 @@ $(document).ready(function() {
   });
   $("button#complete-order").click(function() {
     $(".delivery").show();
-    $("button#complete-order").attr("disabled", true);
   });
   $("button#yes").click(function() {
     $(".delivery").hide();
@@ -56,7 +48,8 @@ $(document).ready(function() {
   $("button#location-submit").click(function() {
     $(".location").hide();
     var location = $("input#yourLocation").val();
-    $("p#text").text("Your pizza will be delivered to " + location + ".");
+    
+    $("#text").text("Your pizza will be delivered to " + location + ".");
     $(".payment").show();
   });
   $("input#yourLocation").val("");

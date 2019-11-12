@@ -20,7 +20,15 @@ body {
   margin-top: 50px;
 }
 
-.payment{
-  color: white;
+.delivery {
+  display: none;
+}
+.location {
+  display: none;
+}
+.noDelivery {
+  display: none;
+}
+.payment {
   display: none;
 }
