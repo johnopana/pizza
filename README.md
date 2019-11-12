@@ -7,19 +7,19 @@
 ##Author:
 - John Opana
 
-Screenshot:
+##Screenshot:
 
 
-Setup:
-git clone https://github.com/kamauvick/Pizza-App.git or download the zip file
+##Setup:
+- git clone https://github.com/kamauvick/Pizza-App.git or download the zip file
 
-Extract the zip file
+- Extract the zip file
 
-cd project folder
+- cd project folder
 
-launch the index.html file
+- launch the index.html file
 
-Technologies:
+##Technologies:
 HTML5
 CSS3
 Bootstrap
