@@ -31,4 +31,10 @@ body {
 }
 .payment {
   display: none;
+  color: white;
+  font-size: 1.5em;
+}
+
+.table{
+  background-color:white; 
 }
