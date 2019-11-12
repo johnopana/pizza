@@ -1,16 +1,16 @@
-##Pizza pap!
-## cosmic pizza
 
-##Description:
+cosmic pizza!
+
+## Description:
 - A pizza ordering web application.
 
-##Author:
+## Author:
 - John Opana
 
-##Screenshot:
+## Screenshot:
 
 
-##Setup:
+## Setup:
 - git clone https://github.com/kamauvick/Pizza-App.git or download the zip file
 
 - Extract the zip file
@@ -19,7 +19,7 @@
 
 - launch the index.html file
 
-##Technologies:
+## Technologies:
 - HTML
 - CSS
 - Bootstrap
@@ -33,10 +33,10 @@
 - Pizza topping	eg Beef peperoni
 - Number of pizzas	eg 6
 - Delivery mode	eg No delivery
-##License:
+## License:
 MIT LICENSE © 2019 John Opana
 
-##Collaborate:
+## Collaborate:
 - To contribute to Pizza pap!, reach me on johnopana2016@gmail.com
 - slack me (john opana)moringa school
 
