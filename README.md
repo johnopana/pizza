@@ -29,8 +29,8 @@ cosmic pizza!
 - Inputs	Description
 - Pizza Flavour	eg chicken-tikka
 - Pizza size	eg medium
-- Pizza crust	eg flatbread crust
-- Pizza topping	eg Beef peperoni
+- Pizza crust	eg cripsy
+- Pizza topping	eg Bagel
 - Number of pizzas	eg 6
 - Delivery mode	eg No delivery
 ## License:
