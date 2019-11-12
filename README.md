@@ -8,7 +8,7 @@ cosmic pizza!
 - John Opana
 
 ## Screenshot:
-![this is my page](images/src.png)
+![this is my page](images/scr.png)
 
 ## Setup:
 - git clone https://github.com/kamauvick/Pizza-App.git or download the zip file
