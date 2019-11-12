@@ -37,6 +37,6 @@ cosmic pizza!
 MIT LICENSE © 2019 John Opana
 
 ## Collaborate:
-- To contribute to Pizza pap!, reach me on johnopana2016@gmail.com
+- To contribute to Pizza, reach me on johnopana2016@gmail.com
 - slack me (john opana)moringa school
 
