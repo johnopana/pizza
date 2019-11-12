@@ -20,22 +20,23 @@
 - launch the index.html file
 
 ##Technologies:
-HTML5
-CSS3
-Bootstrap
-Javascript
-Jquery
-BDD:
-Inputs	Description
-Pizza Flavour	eg chicken-tikka
-Pizza size	eg medium
-Pizza crust	eg flatbread crust
-Pizza topping	eg Beef peperoni
-Number of pizzas	eg 6
-Delivery mode	eg No delivery
-License:
-MIT LICENSE © 2019 Victor
+- HTML
+- CSS
+- Bootstrap
+- Javascript
+- Jquery
+- BDD:
+- Inputs	Description
+- Pizza Flavour	eg chicken-tikka
+- Pizza size	eg medium
+- Pizza crust	eg flatbread crust
+- Pizza topping	eg Beef peperoni
+- Number of pizzas	eg 6
+- Delivery mode	eg No delivery
+##License:
+MIT LICENSE © 2019 John Opana
 
-Collaborate:
-To contribute to Pizza pap!, reach me on waichigovick@gmail.com.
+##Collaborate:
+- To contribute to Pizza pap!, reach me on johnopana2016@gmail.com
+- slack me (john opana)moringa school
 
