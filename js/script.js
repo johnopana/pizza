@@ -16,27 +16,22 @@ $(document).ready(function() {
     };
     var nPizza = new pizza(psize, ptoppings, pcrust);
     var rtotal = nPizza.total();
-  });
 
-  $("button#submit").click(function() {
-    alert(no);
     $("tbody")
       .last()
       .append(
         "<tr>" +
           "<td>" +
-          order() +
+          psize +
           "</td>" +
           "<td>" +
-          no +
+          "" +
           "</td>" +
           "<td>" +
           "Price" +
           "</td>" +
           "</tr>"
       );
-    $(".toPay1").text(totalPrice);
-    $(".toPay").text(totalPrice + 300);
   });
   $("button#complete-order").click(function() {
     $(".delivery").show();
@@ -45,10 +40,11 @@ $(document).ready(function() {
     $(".delivery").hide();
     $(".location").show();
   });
+
   $("button#location-submit").click(function() {
     $(".location").hide();
     var location = $("input#yourLocation").val();
-    
+
     $("#text").text("Your pizza will be delivered to " + location + ".");
     $(".payment").show();
   });
