@@ -4,8 +4,8 @@
 ##Description:
 - A pizza ordering web application.
 
-Author:
-Victor Waichigo
+##Author:
+- John Opana
 
 Screenshot:
 
