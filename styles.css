@@ -19,3 +19,8 @@ body {
   font-size: 1.5em;
   margin-top: 50px;
 }
+
+.payment{
+  color: white;
+  display: none;
+}

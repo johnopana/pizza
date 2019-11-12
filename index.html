@@ -21,43 +21,41 @@
             </div>
             </div>
             </div>
-            <div class="jumbotron">
             <form id="pizza-form">
                     <div class="form-group">
                         <h4>Size of Pizza</h4>
                     <select id="size" class="form-control">
-                        <option value="small">Small</option>
-                        <option value="medium">Medium</option>
-                        <option value="large">Large</option>
+                        <option value="500" text="small">Small</option>
+                        <option value="600" text="medium">Medium</option>
+                        <option value="700" text="large">Large</option>
                     </select>
                     </div>
                     <div class="form-group">
                             <h4>Toppings</h4>
                         <select id="toppings" class="form-control">
-                            <option value="sausage">Sausage</option>
-                            <option value="chicken">Chicken</option>
-                            <option value="BBQ">BBQ</option>
+                            <option value="1000" text="sausage">Sausage</option>
+                            <option value="1200" text="chicken">Chicken</option>
+                            <option value="1300" text="BBQ">BBQ</option>
                         </select>
                     </div>
                     <div class="form-group">
                             <h4>Crust</h4>
                         <select id="crust" class="form-control">
-                            <option value="crispy">Crispy</option>
-                            <option value="cheese">Cheese</option>
-                            <option value="bagel">Bagel</option>
+                            <option value="900" text="cripsy">Crispy</option>
+                            <option value="1100" text="cheese">Cheese</option>
+                            <option value="1300" text="bagel">Bagel</option>
                         </select>
                     </div>
                 </div>
-                
+                <button type="submit" class="btn bg-info" id="sub">ADD</button>
             </form>
-            <div class="num">
-            <div class="jumbotron">
+            <!-- <div class="num">
                     <label>
                     Number Of Pizza
                     <input type="number" id="numbs" placeholder="Number">
-                    </label>
+                    </label> -->
                     
-            <button type="button" class="btn bg-info" id="submit" onclick="pizza()">ADD</button>
+           
             <table class="table table-bordered">
                 <tr>
                     <th>order</th>
@@ -90,18 +88,13 @@
                             <p>Please Enter your location</p>
                             <input type="text" id="yourLocation" placeholder="Location"><br>
                             <button type="button" class="btn bg-primary" id="location-submit">Submit</button>
+                            <p class="payment" id="text">
+                                sgsdjs
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="payment">
-                            <p id="text"></p>
-                            <p>Please pay Ksh:</p>
-                            <div class="toPay"></div>
-                        </div>
-                        </div>
-                    </div> <div class="row">
+                        <div class="row">
                             <div class="col-md-12">
                                 <div class="noDelivery">
                                     <p>Please pay Ksh:</p>
@@ -111,18 +104,6 @@
                         </div>
                     </div>
                 </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-2">
-        </div>
-    </div>
-    <div class="jumbotron" id="j2">
-            <p>"Dedicated to customers satisfuction"</p>
-        </div>
-</div>
-    </div>
-        </div>
     
         <script src="js/jquery-3.3.1.js"></script>
         <script src="js/script.js"></script>
