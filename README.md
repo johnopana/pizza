@@ -11,7 +11,7 @@ cosmic pizza!
 ![this is my page](images/scr.png)
 
 ## Setup:
-- git clone https://github.com/kamauvick/Pizza-App.git or download the zip file
+- git clone https://github.com/johnopana/pizza or download the zip file
 
 - Extract the zip file
 
